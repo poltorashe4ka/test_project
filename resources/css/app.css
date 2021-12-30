@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.sub-list {
+    display: none;
+}
+
+.sub-list.open {
+    display: block;
+}
+li:hover{
+    cursor: pointer;
+}
+.login{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.login div{
+    width: 50%;
+    margin: 2% auto;
+}
